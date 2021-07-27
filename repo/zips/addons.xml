@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.video.dabscope"
+	   name="DABscope"
+	   version="1.0.2"
+	   provider-name="DaButcher">
+  <requires>
+
+	<import addon="script.module.requests"/>
+
+
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Home of DaButcher's Videos</summary>
+    <description lang="en">Home of DaButcher's Videos. I work to educate ppl and make their streaming experience better. Im not here to cash in on the cutting cable craze just to teach ppl how to do it themselves and get the most out of their set up
+      Thank you the Creator of this addon for me</description>
+    <platform>all</platform>
+	<assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
+
+<addon id="shameless.repository" name="Shameless Repository" version="1.0" provider-name="DrxipZ">
+    <extension point="xbmc.addon.repository" name="Shameless Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/DrxipZ/repository.shameless/master/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/DrxipZ/repository.shameless/master/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/DrxipZ/repository.shameless/master/repo/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Shameless Repository</summary>
+        <description>Shameless Repository</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+</addons>

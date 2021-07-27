@@ -1,0 +1,13 @@
+v1.0.2
+Added Youtube channel
+Added install repo -NO RESTART needed
+Fixed menu names
+
+v1.0.1
+Added kodiapps
+Changed fanart
+
+
+v1.0.0
+New addon 
+Thank you to Kodis for this gift of a addon
